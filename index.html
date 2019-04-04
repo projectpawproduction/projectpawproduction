@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Project PAW</title>
+
+	<!-- CSS includes -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald:700" rel="stylesheet">
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://prepbootstrap.com/Content/shieldui-lite/dist/css/light/all.min.css" />
+    <link id="themecss" rel="stylesheet" type="text/css" href="https://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" title="Project PAW">
+                <img class="logo" src="images/logo.png" alt="Project PAW" style="margin-top:5px;" />
+            </a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smooth-scroll">ABOUT</a></li>
+				<li><a href="#cats" class="smooth-scroll">OUR CATS</a></li>
+				<li><a href="#testimonials" class="smooth-scroll">TESTIMONIALS</a></li>
+				<li><a href="#rescue" class="smooth-scroll">RESCUE</a></li>
+				<li><a href="#gallery" class="smooth-scroll">ADOPT</a></li>
+				<li><a href="#volunteer" class="smooth-scroll">VOLUNTEER</a></li>
+				<li><a href="#donate" class="smooth-scroll">DONATE</a></li>
+				<li><a href="#contact" class="smooth-scroll">CONTACT</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+ <!-- Carousel -->
+    <div id="theme-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/CarouselCatto1.jpg" alt="carousel1" style="width: 100%" />
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <h2>SAVE A LIFE</h2>
+                            <p>Many loving, charming, beautiful, and handsome cats are available for adoption.</p>
+							<br />
+							<a href="#gallery" class="smooth-scroll">
+								<button class="button-more-primary btn btn-lg" type="button" style="margin:10px;">ADOPT NOW</button>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/CarouselCatto2.jpg" alt="carousel2" style="width: 100%" />
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h2>HELP WITH CARE AND LOVE</h2>
+                            <p>Please consider volunteering; the animals and the volunteer team would really appreciate your help.</p>
+							<br />
+							<a href="#volunteer" class="smooth-scroll">
+								<button class="button-more-primary btn btn-lg" type="button" style="margin:10px;">VOLUNTEER</button>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/CarouselCatto3.jpg" alt="carousel3" style="width: 100%">
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="col-md-7">
+                        </div>
+                        <div class="col-md-5">
+                            <h2>ANIMALS NEED THE SUPPORT</h2>
+                            <p>Please consider donating to support the loving, thoughtful, and dedicated care provided for 200-300 animals.</p>
+							<br />
+							<a href="#donate" class="smooth-scroll">
+								<button class="button-more-primary btn btn-lg" type="button" style="margin:10px;">DONATE</button>
+							</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#theme-carousel" role="button" data-slide="prev">
+            <div class="carousel-control-arrow">&#8249;</div>
+        </a>
+        <a class="right carousel-control" href="#theme-carousel" role="button" data-slide="next">
+            <div class="carousel-control-arrow">&#8250;</div>
+        </a>
+    </div>
+
+<div class="container-about" id="home">
+    <div class="container">
+	    <div class="page-header">
+		    <h1 class="text-primary  text-center">ABOUT US</h1>
+	    </div>
+		<div class="row">
+		<div class="col-md-6">
+			<img class="img-responsive" src="images/Small_Cattos.jpg"/>
+		</div>
+		<div class="col-md-6">
+			<div>
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#about-us" aria-controls="about-us" role="tab" data-toggle="tab" style="font-size:20px;">About Us</a></li>
+				<li role="presentation"><a href="#mission" aria-controls="mission" role="tab" data-toggle="tab" style="font-size:20px;">Mission</a></li>
+				<li role="presentation"><a href="#vision" aria-controls="vision" role="tab" data-toggle="tab" style="font-size:20px;">Vision</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+				<br />
+				<div role="tabpanel" class="tab-pane active text-justify" id="about-us"> 
+					<ul>
+						<li> We are a no-kill animal shelter for cats. Euthanasia is only invoked in cases in cases of suffering or terminal illness. </li>
+						<li> We are entirely staffed by volunteers. </li>
+						<li> We are entirely funded through charitable donations. </li>
+						<li> We are a family run shelter, and have been so for over forty years. </li>
+					</ul>
+				<br />
+				<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+				</div>
+				<div role="tabpanel" class="tab-pane text-justify" id="mission">
+					<ul>
+						<li> We are committed to saving stray and abandoned cats from around our community. </li>
+					</ul>
+				<br />
+				<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+				</div>
+				<div role="tabpanel" class="tab-pane text-justify" id="vision">
+					<ul>
+						<li> We strongly believe in the humane treatment of animals.</li>
+						<li> We strongly believe that pet ownership is a serious commitment, and we work towards the placement of pets in stable, healthy, and loving homes. </li>
+					</ul>
+				<br />
+				<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    </div>
+</div>
+
+<div class="container-pets" id="cats">
+    <div class="container">
+	    <div class="page-header">
+		    <h1 class="text-primary text-center">OUR CATS</h1>
+	    </div>
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-responsive" src="images/Catto1.jpg" />
+					<div>
+						<div class="col-md-9" style="background-color: #0086b3; color:#fff;">
+							<h3>DOOLEY</h3>
+						</div>
+						<div class="col-md-3 text-center">
+							<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="img-responsive" src="images/Catto2.jpg" />
+					<div>
+						<div class="col-md-9" style="background-color: #0086b3; color:#fff;">
+							<h3>TALISE</h3>
+						</div>
+						<div class="col-md-3 text-center">
+							<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-responsive" src="images/Catto3.jpg" />
+					<div>
+						<div class="col-md-9" style="background-color: #0086b3; color:#fff;">
+							<h3>DAISY</h3>
+						</div>
+						<div class="col-md-3 text-center">
+							<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="img-responsive" src="images/Catto4.jpg" />
+					<div>
+						<div class="col-md-9" style="background-color: #0086b3; color:#fff;">
+							<h3>EARTHA</h3>
+						</div>
+						<div class="col-md-3 text-center">
+							<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix hidden-xs" style="width:100%; height:60px;"></div>
+ 
+<div class="container-phone" id="testimonials">
+	<div class="container">
+		 <div class="page-header">
+		    <h1 class="text-primary text-center">TESTIMONIALS</h1>
+	    </div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/image2.jpg" />
+					</div>
+					<div class="col-md-6">
+						<h3>Leanne</h3>
+						<p>and Micky</p>
+						<br />
+						<p class="text-justify">"Mickey was my beautiful, loving and wonderfully endearing little boy. He brought me so much joy and affection. I miss his affectionate face rubs, sitting on my lap in the kitchen watching the birds, and his chasing the leaves as they "ran" across the deck. What a precious precious little boy who deeply touched our hearts and blessed us with his love!"</p>
+						<br />
+						<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+						<br />
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/DavidAndMac.png" />
+					</div>
+					<div class="col-md-6">
+						<h3>David</h3>
+						<p>and Mac</p>
+						<br />
+						<p class="text-justify">"Mack is a cat of many fellowships. He often follows the dogs around the house. He routinely sits or lays next to the dogs. When he wants me to come and sit with him on the sofa he nods his head in that direction. When he wants more affection he reaches out to my hand and pulls it towards him. Mack come typically comes to greet me at the door when I come home. What a great cat Mack is!" </p>
+						<br />
+						<button class="button-more-success btn" type="button" style="margin:10px;">READ MORE</button>
+						<br />
+					</div>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+	</div>
+</div>
+
+<div class="container-stories" id="rescue">
+	<div class="container">
+		 <div class="page-header">
+		    <h1 class="text-primary text-center">Rescue</h1>
+	    </div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Rescue Policies</h3>
+				<ul>
+					<li>Please contact us in advance, before bringing in your kitten or cat.</li>
+					<li>You <em>may not</em> bring a cat or kitten directly to the shelter without getting authorization from us to do so first.</li>
+					<li>You <em>may not</em> abandon an animal at the shelter at any time.  It is illegal, cruel, and unnecessary.</li>
+					<li>We are not a dog shelter and cannot take dogs.</li>
+				</ul>
+				<br>
+			</div>
+			<div class="col-md-6">
+				<h3 >Why You Should Not Abandon Your Cat Anywhere</h3>
+				<ul>
+					<li>When a kitten or cat is abandoned they are likely scared or even terrified. Instinctively, a kitten or cat will stay where it's caregiver leaves it, believing their caregiver will return for them.</li>
+					<li>Then the kitten or cat is then forced to survive in the harsh and dangerous outdoors, with threats of cruelty, wild animals, and traffic.</li>
+					<li>Unfortunately, many abandoned cats also elude capture by those trying to help them for many months. This can lead to illness or disease. It can also lead to unwanted pregnancies, continuing a terrible cycle.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Rescue Process</h3>
+				<ul>
+					<li><b>Sadly, we are not accepting any cats or kittens at this time.</b> We are a no-kill shelter with limited space, and uncertain adoption patterns. While we want to help you and your pet as soon as we can, we must also protect conditions for our current residents.</li> 
+					<!--<li>First, please email, or come in person <em>without</em> your kitten or cat. Please do not be afraid to contact us. Our email address is <a href="mailto:info.projectpaw@gmail.com">info.projectpaw@gmail.com</a>. Our address is Project PAW, 127 Bevier Street, Binghamton, New York, 13904.</li>
+					<li>When you contact us, please be prepared to share with us: your name, phone number, a brief description of the cat, age, sex, spayed/neutered, and declawed.  Also, it would help us in providing the best care for the cat, to understand why you can no longer provide care for the kitten or cat, including: behavioral issues, illnesses, housing problems, or other issues. One of our volunteers will return your call to explain the rescue process to help you and the animal.</li -->
+					
+				</ul>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-phone2">
+	<div class="container">
+		<div class="text-center">
+			<h1>Many loving, charming, beautiful, and handsome cats are available for adoption. Come visit to see for yourself!</h1>
+			<br/>
+			<h3><i class="fa fa-envelope" aria-hidden="true"></i>  info.projectpaw@gmail.com</h3>
+		</div>
+	</div>
+</div>
+
+<div class="container-gallery" id="gallery"">
+    <div class="container">
+        <div class="page-header">
+            <h1 class="text-center text-primary">ADOPT A PET</h1>
+        </div>
+        <div class="text-center">
+	        <a href="adopt.html" class="smooth-scroll">
+				<button class="button-more-primary btn btn-lg" type="button" style="margin:10px;">ONLINE ADOPTION APPLICATION FORM</button>
+			</a>
+		</div>
+		<div class="row">
+		    <div class="col-md-12">
+				<div class="row">
+					<h3>Adoption Policies</h3>
+			        <ul>
+			        	<li>We charge a $70 fee per animal for adoption.  This fee covers just a portion of the costs for testing, vaccines, spaying or neutering.</li>    
+			        	<li>We require an application be submitted.  Here is the link to application form, or find it under the Adopt menu above.</li>
+			       		<li> When you come visit, we require photo identification and proof of residence, such as a utility bill.</li>
+			        	<li>We require that all pets be spayed or neutered prior to adoption, if their age permits.  Females can be spayed at six months, and males can be neutered at seven months.  If you adopt a younger pet, you assume responsibility for having them spayed or neutered later.  In those instances, we require that you provide a copy of documentation from a veterinarian as proof that the pet has been spayed or neutered.</li>
+			        	<li>All adoptions are contingent on the adopter's agreement to keep the pet indoors at all times.  Why?  The incidence of feline leukemia, feline HIV/AIDS, and other diseases make an indoor lifestyle mandatory.  Injury or death due to traffic and fights with other animals are a very real risk.  Finally, unfortunately acts of cruelty towards animals are not uncommon.</li>
+			        </ul>
+			    </div>
+			</div>
+			<div class="col-md-12">
+				<div class="row">
+			        <h3>Adoption Process</h3>
+			        <ul>
+			        	<li>Please contact us to arrange an adoption.﻿ The shelter is open for adoptions Monday through Saturday 7:30AM to 11:30 AM.  Emailing ahead can help ensure there is someone available to accommodate your tour. Email <a href="mailto:info.projectpaw@gmail.com">info.projectpaw@gmail.com</a>. The address is, Project PAW, 127 Bevier Street, Binghamton, New York  13904.</li>
+			        	<li>We will discuss the adoption policies noted above.  We will arrange a time for you to come and see the kittens and cats that best fit your situation.</li>
+			        	<li>Prior to taking custody of your new pet, spaying or neutering are required, assuming it is age appropriate.</li>
+			        	<li>Take your new pet home and enjoy the varied and rich rewards of pet ownership.</li>
+			    	</ul>
+			    </div>
+			</div>
+			<div class="col-md-12">
+				<div class="row">
+			        <h3>Post Adoption Support</h3>
+			        <ul>
+			        	<li>We are available after the adoption to address any questions regarding your pet's health and behavior. Many concerns or problems can be resolved with a little advice, or with a referral to other resources.</li> 
+			        	<li>If for any reason, an adoption is not working out, we urge you to return the pet to us. We understand that sometimes allergies, finances, or problems interacting with children or other pets can make this necessary.</li>
+			        </ul>
+			     </div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+			        <h3>Adoptee Preventive Health Care</h3>
+			        <ul>
+			        	<li>We encourage adopters to schedule a veterinarian visit as soon as possible after adoption.   This will establish a base of information about your pet, and assure that all vaccinations are up-to-date.</li>
+			        </ul>
+			    </div>
+			</div>
+			<div class="col-md-6">
+		    	<div class="row">
+			        <h3>Adoptee Health</h3>
+			        <ul>
+			        	<li>The pets offered for adoption were typically stray or abandoned. Therefore, we cannot guarantee the age, past history or health of the cat.  We can only testify with certainty to the behavior, disposition, and health information gained during the time the pet has been under our care.</li>
+			        </ul>
+			    </div>
+			</div>
+        </div>
+    </div>
+</div>
+<br><br>
+
+<div class="container-phone" id="volunteer">
+	 <div class="container">
+	   <div class="page-header">
+		    <h1 class="text-primary text-center">VOLUNTEER</h1>
+	    </div>
+	   	<h3>Volunteer Information</h3>
+	    	<ul>
+	    		<li>Volunteers are the driving force behind the day to day care provided to the animals.  Volunteer activities can include feeding, grooming, laundry, cleaning, and more.</li>
+	    		<li>Volunteering is a great way to feel like you are making a difference in the world.  Even a few hours a week or a month can make a really important contribution to the animals.</li>
+	    		<li>We have and need all kinds of volunteers; short term, long term, young, middle, and older.  You may try out volunteering and see how much it can mean to the animals and to you.</li>
+	    		<li><b>Please</b> consider volunteering; the animals and the volunteer team would really appreciate your help.</li>
+	    		<li>To volunteer, please contact us by email, or stopping in.</li>
+	    		<div class='indent'>Email: <a href="mailto:info.projectpaw@gmail.com">info.projectpaw@gmail.com</a></div>
+	    		<div class='indent'>Address: Project PAW, 127 Bevier Street, Binghamton, New York  13904</div>
+	    	</ul>
+	    	<h3>Volunteer Hours</h3>
+	    	<ul>
+	    		<li>Volunteer shifts run between 7:30AM and 11:30AM Monday-Saturday.</li>
+	    		<li>Volunteer service projects by groups or organizations during other hours can be arranged.</li>
+	    	</ul>
+	    <br>
+	    <h3>Volunteer Testimonials</h3>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/Project_Paw_Kelly.png"/>
+					</div>
+					<div class="col-md-6">
+						<h3>Kelly</h3>
+						<p>Volunteer</p>
+						<br />
+						<p class="text-justify">"Volunteering at here has been very rewarding and well worth my time.  I love the cats."</p>
+						<br />
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive" src="images/Maxine_Volunteer.jpg" />
+					</div>
+					<div class="col-md-6">
+						<h3>Maxine</h3>
+						<p>Volunteer</p>
+						<br />
+						<p class="text-justify">"I am grateful to be able to support such a generous organization that is doing so much good work."</p>
+						<br />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-gallery" id="donate">
+    <div class="container">
+        <div class="page-header">
+            <h1 class="text-center text-primary">DONATE</h1>
+        </div>
+        <div class="row">
+            <div class="">
+            	<div class="row">
+			        <p>Please consider donating to support the loving, thoughtful, and dedicated care provided for 200-300 animals.  Donations are what keeps the doors open and are the only funds we typically receive.  Each donation helps the animals directly or indirectly with food, veterinary bills, heat, lighting, maintenance, cleaning supplies, and more.  Only a small percentage is allocated for fund raising. <b>Project PAW is a non-profit, 501(c)(3) charity.</b></p> 
+			    </div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Ways to Donate Funds</h3>
+				<br>
+			        <div class="row">
+						<div class="col-md-4">
+				        	<p><b>Donate via PayPal Online</b></p>
+				        	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_donations" />
+							<input type="hidden" name="business" value="info.projectpaw@gmail.com" />
+							<input type="hidden" name="currency_code" value="USD" />
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+							<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+							</form>
+				        </div>
+
+				        <div class="col-md-4">
+					        <p><b>Donate by Check by Mail</b></p>
+					        <p>Project PAW</p>
+							<p>127 Bevier Street</p>
+							<p>Binghamton, New York  13904</p><br>
+						</div>
+						<div class="col-md-4">
+					        <p><b>Donate by Check in Person</b></p>
+					        <p>Project PAW</p>
+							<p>127 Bevier Street</p>
+							<p>Binghamton, New York  13904</p>
+						</div>
+					</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-8">
+		        <h3>Sponsor a Cat</h3>
+		        <ul>
+		        	<li>If you want a cat, but are allergic or cannot have a pet at home, why not sponsor a cat at Project PAW?  For a minimum of $20 per month, you can pick out a cat to sponsor, or we can pick one out for you.</li>  
+					<li>The funds will go towards food, medication, treats and incidentals for the cat of your choice.  You will be able to stop in and visit your sponsored cat, and you will receive a picture and a certificate of sponsorship.</li>  
+					<li>Please email to arrange sponsorship. Our email address is <a href="mailto:info.projectpaw@gmail.com">info.projectpaw@gmail.com</a>.</li>
+		        </ul>
+			</div>
+			<div class="col-md-4">
+		    	<div class="row">
+			        <h3>Sponsor a Run</h3>
+			        <ul>
+			        	<li>A run is a section of the shelter shared by a community of 4-8 cats. You can sponsor a run for a minimum of $40 per month.  Please call or email to arrange sponsorship.  Our email address is <a href="mailto:info.projectpaw@gmail.com">info.projectpaw@gmail.com</a>.  </li>
+			        </ul>
+			    </div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			
+			<div class="col-md-8">
+		        <h3>Donate Bottles</h3>
+		        <p>We translate deposit bottles and cans into donations.  These may be dropped off at the shelter.</p>
+		        <ul>
+		        	<li>Donations of bottles and cans should be dropped off at the shelter 7:30-11:30AM SATURDAYS ONLY.</li>   
+					<li>Donations of large quantities of bottles and cans can be picked up by a volunteer.  Please call.</li>  
+		        </ul>
+			</div>
+			<div class="col-md-4">
+		        <h3>Donate Goods</h3>
+		        <p>We greatly appreciate donations of goods, including:</p>
+		        <ul>
+		        	<li>Cat food - unopened only</li>  
+					<li>Kitty litter</li>  
+					<li>Cleaning supplies</li>  
+					<li>Cat carriers</li>  
+					<li>Humane cat traps</li>  
+					<li>Towels</li>  
+		        </ul>
+			</div>
+			<div class="col-md-12">
+		        <h3>Donate Services</h3>
+		        <p>If you have any of the special skills noted below and you wish to donate your time that would be extremely helpful and very much appreciated.  The list includes:</p>
+		        <ul>
+		        	<li>Licensed veterinarians to make periodic visits to the shelter.</li>  
+					<li>Veterinary technicians to make periodic visits to the shelter.</li>  
+					<li>Pet groomers to give our animals some tender loving care.</li>
+					<li>Skilled trades people and laborers to help maintain building.   This may include carpenters, electricians, plumbers, roofers, general contractors, and laborers.</li>
+					<li>Fund raising.  Please come and share you ideas.</li>
+		        </ul>
+			</div>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="container-phone" id="contact">
+    <div class="container">
+	    <div class="page-header">
+			<h2 class="text-center text-primary">Contact us using the form below</h2>
+			<br />
+			<div class="row">
+				<div class="col-md-6 text-justify googlemap">
+					<div id="googlemap">
+						<iframe width="330" height="330" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJb2HL9WXl2okR3PTKeT0BhyI&key=AIzaSyBd5jQHm3jnz3XNKCkLZlZT34z4g6iKqpM" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<fieldset>
+						<form action="https://formspree.io/info.projectpaw@gmail.com" method="POST" />
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" name="name" class="form-control" id="name" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<label for="email">Email Address</label>
+								<input type="email" name="email" class="form-control" id="email" placeholder="Email Address">
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<input type="text" name="subject" class="form-control" id="subject" placeholder="Subject">
+							</div>
+							<div class="form-group">
+								<label for="message">Email your Message</label>
+								<textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
+							</div>
+							<button class="button-more-primary btn btn-lg" type="submit" style="margin:10px;">Submit</button>
+							<br /><br />
+						</fieldset>
+					</form>
+				 </div>
+			</div>
+        </div>
+    </div>
+</div>
+
+<footer id="subfooter" class="clearfix">
+    <div class="container">
+        <div class="row text-justify">
+            <div class="col-md-4">
+				<h3>About Us</h3>
+				<br />
+                <p>Our mission is to save stray and abandoned cats from around our community.</p>
+				<hr style="border-color:#bbb;">
+				<p>127 Bevier Street, Binghamton, New York 13904, USA</p>
+                <p> Monday-Saturday: 7:30AM-11:30AM</p>
+                <p>Sunday: Closed</p>
+                <p><a href="mailto:info.projectpaw@gmail.com" style="color:#ffffff;">info.projectpaw@gmail.com</a></p>
+            </div>
+            <div class="col-md-1"></div>
+			<div class="col-md-3">
+				<h3>Navigation</h3>
+				<br />
+                 	<p><a href="#home" style="color:#ffffff;">ABOUT</a></p>
+                 	<p><a href="#cats" style="color:#ffffff;">OUR CATS</a></p>
+					<p><a href="#testimonials" style="color:#ffffff;">TESTIMONIALS</a></p>
+					<p><a href="#rescue" style="color:#ffffff;">RESCUE</a></p>
+					<p><a href="#gallery" style="color:#ffffff;">ADOPT</a></p>
+					<p><a href="#volunteer" style="color:#ffffff;">VOLUNTEER</a></p>
+					<p><a href="#donate" style="color:#ffffff;">DONATE</a></p>
+					<p><a href="#contact" style="color:#ffffff;">CONTACT</a></p>
+				
+			</div>
+			<div class="col-md-4">
+                <h3>Donate</h3>
+				<br />
+				<p>Donate via PayPal Online</p>
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_donations" />
+				<input type="hidden" name="business" value="info.projectpaw@gmail.com" />
+				<input type="hidden" name="currency_code" value="USD" />
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+				<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+				</form>
+				<br><br>
+                <p>Follow us on Facebook!</p>
+                <a class="fa fa-facebook footer-socialicon" style="color:#ffffff;" target="_blank" href=https://www.facebook.com/pages/Project-Paw-Inc/113696265330633> </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://prepbootstrap.com/Content/shieldui-lite/dist/js/shieldui-lite-all.min.js"></script>
+<script type="text/javascript" src="https://www.shieldui.com/shared/components/latest/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+
+<script type="text/javascript">
+    jQuery(function($) {
+
+		// Shield Chart
+		$("#chart").shieldChart({
+            theme: "bootstrap",
+            primaryHeader: {
+                text: "Adorable Pets"
+            },
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisX: {
+                categoricalValues: ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"]
+            },
+            tooltipSettings: {
+                chartBound: true,
+                axisMarkers: {
+                    enabled: true,
+                    mode: 'x'
+                }                    
+            },
+            dataSeries: [{
+                seriesType: 'bar',
+                collectionAlias: "Adorable Pets in Thousands",
+                data: [100, 320, 453, 234, 553, 665, 345, 123, 432, 545, 654, 345, 332, 456, 234]
+            }]
+        });
+    });
+
+
+</script>
+
+</body>
+</html>
